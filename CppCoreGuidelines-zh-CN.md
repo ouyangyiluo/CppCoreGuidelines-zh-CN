@@ -2065,7 +2065,7 @@ GCC 6.1 及其后版本支持概念。
 
 注意，这属于上面的第一种问题：缺乏抽象。STL 传递的不是范围（抽象），而是一对迭代器（未封装的成分值）。
 
-其中有四个模板参数和留个函数参数。
+其中有四个模板参数和六个函数参数。
 为简化最常用和最简单的用法，比较器参数可以缺省使用 `<`：
 
     template<class InputIterator1, class InputIterator2, class OutputIterator>
